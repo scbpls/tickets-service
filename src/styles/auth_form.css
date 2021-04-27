@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    color: #010101;
+}
+body {
+    height: 100%;
+    background-image: linear-gradient(#7209b7, #560bad);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#container {
+    height: 100%;
+    min-height: 100%;
+    padding: 60px 80px 20px 80px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#container_form {
+    margin: 80px auto 80px auto;
+    padding: 60px 80px 60px 80px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0px 5px 50px 10px rgba(0,0,0,0.25);
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+form input, #register {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+form input[type="text"], form input[type="password"] {
+    width: 240px;
+    height: 30px;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.20);
+    transition: background-color 360ms ease-in-out;
+}
+form input[type="text"]:hover, form input[type="password"]:hover {
+    background-color: #f0f0f0;
+}
+form input[type="submit"], #register {
+    width: 160px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    transition: background-color 360ms ease-in-out;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+form input[type="submit"]:hover, #register:hover {
+    background-color: #e6e6e6;
+}
+#register {
+    margin-top: 20px !important;
+}
+a {
+    text-decoration: none;
+}
+#footer {
+    margin-top: 80px;
+    padding: 20px;
+}
+#footer p {
+    color: #902eff;
+    font-size: 1.1em;
+}
