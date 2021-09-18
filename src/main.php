@@ -40,7 +40,7 @@
                 ?>
             </div>
             <div id="footer">
-                <p>&copy; Copyright 2021, Jakub Marciniak 4c</p>
+                <p>&copy; Copyright 2021, Jakub Marciniak</p>
             </div>
         </div>
     </body>
