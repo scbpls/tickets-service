@@ -1,2 +1,2 @@
 # TicketService
-Service to create and manage tickets
+Service to create and manage the tickets
